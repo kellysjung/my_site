@@ -1,13 +1,13 @@
 import React from 'react';
 
 interface Props {
-	Data: any
+	data: any
 };
 interface ComponentState {};
 
 export default class Footer extends React.Component<Props, ComponentState> {
 	render(): JSX.Element {
-		const networks= this.props.Data.social.map(function(network: any){
+		const networks= this.props.data.social.map(function(network: any){
 			return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
 		})
 		
@@ -25,7 +25,7 @@ export default class Footer extends React.Component<Props, ComponentState> {
 					</ul>
 
 					</div>
-					<div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open"></i></a></div>
+					<div id="go-top"><a className="smoothscroll" title="Back to Top" href="#Home"><i className="icon-up-open"></i></a></div>
 				</div>
 			</footer>
 		);

@@ -1,18 +1,18 @@
 import React from 'react';
 
 interface Props {
-	Data: any;
+	data: any;
 };
 interface ComponentState {};
 
 export default class Contact extends React.Component<Props, ComponentState> {
 	render(): JSX.Element {
-		const name = this.props.Data.name;
-		const city = this.props.Data.address.city;
-		const state = this.props.Data.address.state;
-		const phone = this.props.Data.phone;
-		const email = this.props.Data.email;
-		const message = this.props.Data.contactmessage;
+		const name = this.props.data.name;
+		const city = this.props.data.address.city;
+		const state = this.props.data.address.state;
+		const phone = this.props.data.phone;
+		const email = this.props.data.email;
+		const message = this.props.data.contactmessage;
 
 		return (
 			<section id="contact">

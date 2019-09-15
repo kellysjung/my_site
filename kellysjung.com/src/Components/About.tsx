@@ -1,18 +1,18 @@
 import React from 'react';
 
 interface Props {
-	Data: any
+	data: any
 };
 interface ComponentState {};
 
 export default class About extends React.Component<Props, ComponentState> {
 	render(): JSX.Element {
-		const name = this.props.Data.name;
-		const profilepic= "i/"+this.props.Data.image;
-		const bio = this.props.Data.bio;
-		const phone= this.props.Data.phone;
-		const email = this.props.Data.email;
-		const resumeDownload = this.props.Data.resumedownload;
+		const name = this.props.data.name;
+		const profilepic= "i/"+this.props.data.image;
+		const bio = this.props.data.bio;
+		const phone= this.props.data.phone;
+		const email = this.props.data.email;
+		const resumeDownload = this.props.data.resumedownload;
 
 		return (
 			<section id="about">

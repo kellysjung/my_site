@@ -1,5 +1,5 @@
 {
-	"Main": {
+	"main": {
 		"name":"Kelly Jung",
 		"occupation":"Software Developer",
 		"description":"I'm was a coding fellow for Less Annoying CRM in 2017, and now am developing a career in software development.",
@@ -68,16 +68,6 @@
 		{
 			"name":"HTML5",
 			"level":"90%"
-		}
-		]
-	},
-	"portfolio":{
-		"projects": [
-		{
-			"title":"Canadian Wanderlust",
-			"category":"My Travel Blog for my post-university travels",
-			"image":"canadian-wanderlust.jpg",
-			"url":"https://www.canadianwanderlust.com"
 		}
 		]
 	}

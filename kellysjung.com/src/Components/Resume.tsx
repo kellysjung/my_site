@@ -1,25 +1,25 @@
 import React from 'react';
 
 interface Props {
-	Data: any
+	data: any
 };
 interface ComponentState {};
 
 export default class Resume extends React.Component<Props, ComponentState> {
 	render(): JSX.Element {
-		const skillmessage = this.props.Data.skillmessage;
-		const education = this.props.Data.education.map(function(education: any){
+		const skillmessage = this.props.data.skillmessage;
+		const education = this.props.data.education.map(function(education: any){
 			return <div key={education.school}><h3>{education.school}</h3>
 			<p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
 			<p>{education.description}</p></div>
 		})
-		const work = this.props.Data.work.map(function(work: any){
+		const work = this.props.data.work.map(function(work: any){
 			return <div key={work.company}><h3>{work.company}</h3>
 				<p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
 				<p>{work.description}</p>
 			</div>
 		})
-		const skills = this.props.Data.skills.map(function(skills: any){
+		const skills = this.props.data.skills.map(function(skills: any){
 			const className = 'bar-expand '+skills.name.toLowerCase();
 			return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
 		})
