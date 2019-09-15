@@ -1,0 +1,84 @@
+{
+	"Main": {
+		"name":"Kelly Jung",
+		"occupation":"Software Developer",
+		"description":"I'm was a coding fellow for Less Annoying CRM in 2017, and now am developing a career in software development.",
+		"image":"profilepic.jpg",
+		"bio":"My bio!",
+		"contactmessage":"I can be reached in a multitude of ways. I look forward to connecting with you!",
+		"email": "kellyjung96@gmail.com",
+		"phone": "(516) 350 - 0009",
+		"address":{
+		"street":"(Street)",
+		"city":"St. Louis",
+		"state":"MO",
+		"zip": "(Zip Code)"
+		},
+		"website": "http://www.kellysjung.com",
+		"resumedownload":"http://kellysjung.com",
+		"social":[
+		{
+			"name":"linkedin",
+			"url":"https://www.linkedin.com/in/kellysjung/",
+			"className":"fa fa-linkedin"
+		},
+		{
+			"name":"instagram",
+			"url":"http://instagram.com/kellyshinhae",
+			"className":"fa fa-instagram"
+		},
+		{
+			"name":"github",
+			"url":"http://github.com/kellysjung",
+			"className":"fa fa-github"
+		}
+		]
+	},
+	"resume":{
+		"skillmessage":"Skillzzz",
+		"education":[
+		{
+			"school":"Washington University in St. Louis",
+			"degree":"Bachelor of Arts in Psychology",
+			"graduated":"May 2018",
+			"description":"Minor in Computer Science"
+		}
+		],
+		"work":[
+		{
+			"company":"Less Annoying CRM",
+			"title":"Software Developer",
+			"years":"January 2019 - Present",
+			"description":"I code."
+		}
+		],
+		"skills":[
+		{
+			"name":"Git",
+			"level":"60%"
+		},
+		{
+			"name":"ReactJs",
+			"level":"50%"
+		},
+		{
+			"name":"CSS",
+			"level":"90%"
+		},
+		{
+			"name":"HTML5",
+			"level":"90%"
+		}
+		]
+	},
+	"portfolio":{
+		"projects": [
+		{
+			"title":"Canadian Wanderlust",
+			"category":"My Travel Blog for my post-university travels",
+			"image":"canadian-wanderlust.jpg",
+			"url":"https://www.canadianwanderlust.com"
+		}
+		]
+	}
+}
