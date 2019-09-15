@@ -13,7 +13,7 @@ export default class Header extends React.Component<Props, ComponentState> {
 		const city= this.props.data.address.city;
 		const networks= this.props.data.social.map(function(network: any){
 			return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
-		})
+		});
 
 		return (
 			<header id="Home">
@@ -25,6 +25,7 @@ export default class Header extends React.Component<Props, ComponentState> {
 						<li><a className="smoothscroll" href="#about">About</a></li>
 						<li><a className="smoothscroll" href="#resume">Resume</a></li>
 						<li><a className="smoothscroll" href="#contact">Contact</a></li>
+						<li><a className="smoothscroll" href="#extra">For Fun!</a></li>
 					</ul>
 				</nav>
 				<div className="row banner">
