@@ -16,7 +16,7 @@ export default class Contact extends React.Component<Props, ComponentState> {
 
 		return (
 			<section id="contact">
-				<div className="row section-head">
+				<div className="Row section-head">
 					<div className="two columns header-col">
 						<h1>Get in touch!</h1>
 					</div>
@@ -24,7 +24,7 @@ export default class Contact extends React.Component<Props, ComponentState> {
 						<p className="lead">{message}</p>
 					</div>
 				</div>
-				<div className="row">
+				<div className="Row">
 					<div className="eight columns">
 						<form action="" method="post" id="contactForm" name="contactForm">
 							<fieldset>

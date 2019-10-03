@@ -11,7 +11,7 @@
 ------------------------------------------------------ */
 
     setTimeout(function() {
-	   $('h1.responsive-headline').fitText(1, { minFontSize: '40px', maxFontSize: '90px' });
+	   $('h1.Headline').fitText(1, { minFontSize: '40px', maxFontSize: '90px' });
 	 }, 100);
 
 
@@ -19,7 +19,7 @@
 /* Smooth Scrolling
 ------------------------------------------------------ */
 
-   $('.smoothscroll').on('click',function (e) {
+   $('.SmoothScroll').on('click',function (e) {
 	    e.preventDefault();
 
 	    var target = this.hash,

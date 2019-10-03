@@ -1,22 +1,20 @@
 {
 	"main": {
 		"name":"Kelly Jung",
-		"occupation":"Software Developer",
-		"description":"In 2017, I participated in a summer coding fellowship and now am developing a career in software development. This resume website was made for some web building practice.",
-		"image":"profilepic.jpg",
-		"bio":"My bio!",
+		"occupation":"Software Engineer",
+		"description":"I like to build things for the web. Finding creative approaches, while contributing and working on full stack web development projects, is what I do.",
+		"image":"profilepic_florence.jpg",
+		"bio":"In 2017, I participated in a summer coding fellowship and now am developing a career in software engineering. This resume website was made for some web building practice.",
 		"contactmessage":"I can be reached in a multitude of ways. I look forward to connecting with you!",
 		"email": "kellyjung96@gmail.com",
 		"phone": "(516) 350 - 0009",
 		"address":{
-		"street":"(Street)",
 		"city":"St. Louis",
-		"state":"MO",
-		"zip": "(Zip Code)"
+		"state":"MO"
 		},
 		"website": "http://www.kellysjung.com",
 		"resumedownload":"http://kellysjung.com",
-		"social":[
+		"Social":[
 		{
 			"name":"linkedin",
 			"url":"https://www.linkedin.com/in/kellysjung/",
@@ -35,39 +33,40 @@
 		]
 	},
 	"resume":{
-		"skillmessage":"Skillzzz",
 		"education":[
-		{
-			"school":"Washington University in St. Louis",
-			"degree":"Bachelor of Arts in Psychology",
-			"graduated":"May 2018",
-			"description":"Minor in Computer Science"
-		}
+			{
+				"school":"Washington University in St. Louis",
+				"degree":"Bachelor of Arts in Psychology",
+				"graduated":"May 2018",
+				"description":"Minor in Computer Science"
+			}
 		],
 		"work":[
-		{
-			"company":"Less Annoying CRM",
-			"title":"Software Developer",
-			"years":"January 2019 - Present",
-			"description":"I code."
-		}
+			{
+				"company":"Less Annoying CRM",
+				"title":"Software Enginner - Full Stack",
+				"years":"January 2019 - Present",
+				"description":"I code.",
+				"website":"https://www.lessannoyingcrm.com/"
+			}
 		],
+		"skillmessage":"Always learning, always improving! But at the moment, these are my skills",
 		"skills":[
 		{
 			"name":"Git",
 			"level":"60%"
 		},
 		{
-			"name":"ReactJs",
-			"level":"50%"
+			"name":"React.js",
+			"level":"60%"
 		},
 		{
 			"name":"CSS",
 			"level":"90%"
 		},
 		{
-			"name":"HTML5",
-			"level":"90%"
+			"name":"HTML",
+			"level":"100%"
 		}
 		]
 	}
