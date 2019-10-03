@@ -11,9 +11,9 @@ export default class Header extends React.Component<Props, ComponentState> {
 		const occupation= this.props.data.occupation;
 		const description= this.props.data.description;
 		const city= this.props.data.address.city;
-		const networks= this.props.data.social.map(function(network: any){
+		const networks= this.props.data.Social.map(function(network: any){
 			return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
-		})
+		});
 
 		return (
 			<header id="Home">
@@ -21,24 +21,28 @@ export default class Header extends React.Component<Props, ComponentState> {
 					<a className="MobileButton" href="#NavWrap" title="Show navigation">Show navigation</a>
 					<a className="MobileButton" href="#Home" title="Hide navigation">Hide navigation</a>
 					<ul id="nav" className="nav">
-						<li className="current"><a className="smoothscroll" href="#Home">Home</a></li>
-						<li><a className="smoothscroll" href="#about">About</a></li>
-						<li><a className="smoothscroll" href="#resume">Resume</a></li>
-						<li><a className="smoothscroll" href="#contact">Contact</a></li>
+						<li className="current"><a className="SmoothScroll" href="#Home">Home</a></li>
+						<li><a className="SmoothScroll" href="#about">About</a></li>
+						<li><a className="SmoothScroll" href="#resume">Resume</a></li>
+						<li><a className="SmoothScroll" href="#contact">Contact</a></li>
+						<li><a className="SmoothScroll" href="#extra">Extra</a></li>
 					</ul>
 				</nav>
-				<div className="row banner">
-					<div className="banner-text">
-						<h1 className="responsive-headline">I'm {name}.</h1>
-						<h3>I'm a {city} based <span>{occupation}</span>. {description}.</h3>
-						<hr />
-						<ul className="social">
+				<div className="Row Banner">
+					<div className="BannerText">
+						<h1 className="Headline">{name}</h1>
+						<div className="ProfileTitle">
+							<p>I'm a {city} based <span>{occupation}</span>.</p>
+							<p className="ProfileDescription">{description}</p>
+						</div>
+						<br />
+						<ul className="Social">
 						{networks}
 						</ul>
 					</div>
 				</div>
-				<p className="scrolldown">
-					<a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+				<p className="ScrollDown">
+					<a className="SmoothScroll" href="#about"><i className="icon-down-circle"></i></a>
 				</p>
 			</header>
 		);

@@ -16,7 +16,7 @@ export default class About extends React.Component<Props, ComponentState> {
 
 		return (
 			<section id="about">
-				<div className="row">
+				<div className="Row">
 					<div className="three columns">
 						<img className="profile-pic"  src={profilepic} alt="Kelly Jung Profile Pic" />
 					</div>
@@ -24,7 +24,7 @@ export default class About extends React.Component<Props, ComponentState> {
 						<h2>About Me</h2>
 
 						<p>{bio}</p>
-						<div className="row">
+						<div className="Row">
 						<div className="columns contact-details">
 							<h2>Contact Details</h2>
 							<p className="address">
