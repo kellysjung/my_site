@@ -7,8 +7,8 @@ interface ComponentState {};
 
 export default class Resume extends React.Component<Props, ComponentState> {
 	render(): JSX.Element {
-		const skillmessage = this.props.data.skillmessage;
-		const education = this.props.data.education.map(function(education: any){
+		const SkillsMessage = this.props.data.skillmessage;
+		const EducationSection = this.props.data.education.map(function(education: {school: string, degree: string, graduated: string, description: string}){
 			return (
 				<div key={education.school}>
 					<h3><a href="https://wustl.edu/" target="_blank">{education.school}</a></h3>
@@ -17,18 +17,28 @@ export default class Resume extends React.Component<Props, ComponentState> {
 				</div>
 			);
 		})
-		const work = this.props.data.work.map(function(work: any){
-			const CompanyName = (work.website ? <a href={work.website} target="_blank">{work.company}</a> : work.company);
-			// console.log(work.website);
+		
+		const WorkSection = this.props.data.experience.map(function(experience: {company: string, website: string, positions: any[]}){
+			let Positions: JSX.Element[] = [];
+			const CompanyName = (experience.website ? <a href={experience.website} target="_blank">{experience.company}</a> : experience.company);
+			
+			experience.positions.map(function(positions: {title: string, years: string, description: string}){
+				Positions.push(
+					<>
+					<p className="info">{positions.title}<span>&bull;</span><em className="date">{positions.years}</em></p>
+					<p>{positions.description}</p><br />
+					</>
+				);
+			})
+		
 			return (
-				<div key={work.company}>
+				<div key={experience.company}>
 					<h3>{CompanyName}</h3>
-					<p className="info">{work.title}<span>&bull;</span><em className="date">{work.years}</em></p>
-					<p>{work.description}</p>
+					{Positions}
 				</div>
 			);
 		})
-		const skills = this.props.data.skills.map(function(skills: any){
+		const SkillSection = this.props.data.skills.map(function(skills: {name: string, level: string}){
 			const className = 'bar-expand '+skills.name.toLowerCase();
 			return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
 		})
@@ -36,6 +46,16 @@ export default class Resume extends React.Component<Props, ComponentState> {
 
 		return (
 			<section id="resume">
+				<div className="Row work">
+					<div className="three columns header-col">
+						<h1><span>Work</span></h1>
+					</div>
+					<div className="nine columns main-col">
+						More details about my experiences can be found on my resume, which can be downloaded above.
+						<br /><br />
+						{WorkSection}
+					</div>
+				</div>
 				<div className="Row education">
 					<div className="three columns header-col">
 						<h1><span>Education</span></h1>
@@ -43,17 +63,9 @@ export default class Resume extends React.Component<Props, ComponentState> {
 					<div className="nine columns main-col">
 						<div className="Row item">
 							<div className="twelve columns">
-								{education}
+								{EducationSection}
 							</div>
 						</div>
-					</div>
-				</div>
-				<div className="Row work">
-					<div className="three columns header-col">
-						<h1><span>Work</span></h1>
-					</div>
-					<div className="nine columns main-col">
-						{work}
 					</div>
 				</div>
 				<div className="Row skill">
@@ -61,11 +73,11 @@ export default class Resume extends React.Component<Props, ComponentState> {
 						<h1><span>Skills</span></h1>
 					</div>
 					<div className="nine columns main-col">
-						<p>{skillmessage}</p>
+						<p>{SkillsMessage}</p>
 						<br />
 						<div className="bars">
 							<ul className="skills">
-								{skills}
+								{SkillSection}
 							</ul>
 						</div>
 					</div>

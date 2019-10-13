@@ -7,11 +7,11 @@ interface ComponentState {};
 
 export default class Header extends React.Component<Props, ComponentState> {
 	render(): JSX.Element {
-		const name = this.props.data.name;
-		const occupation= this.props.data.occupation;
-		const description= this.props.data.description;
-		const city= this.props.data.address.city;
-		const networks= this.props.data.Social.map(function(network: any){
+		const Name = this.props.data.name;
+		const Occupation= this.props.data.occupation;
+		const Description= this.props.data.description;
+		const City= this.props.data.address.city;
+		const Networks= this.props.data.Social.map(function(network: any){
 			return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
 		});
 
@@ -25,19 +25,19 @@ export default class Header extends React.Component<Props, ComponentState> {
 						<li><a className="SmoothScroll" href="#about">About</a></li>
 						<li><a className="SmoothScroll" href="#resume">Resume</a></li>
 						<li><a className="SmoothScroll" href="#contact">Contact</a></li>
-						<li><a className="SmoothScroll" href="#extra">Extra</a></li>
+						{/* <li><a className="SmoothScroll" href="#extra">Extra</a></li> */}
 					</ul>
 				</nav>
 				<div className="Row Banner">
 					<div className="BannerText">
-						<h1 className="Headline">{name}</h1>
+						<h1 className="Headline">Hey, I'm {Name}!</h1>
 						<div className="ProfileTitle">
-							<p>I'm a {city} based <span>{occupation}</span>.</p>
-							<p className="ProfileDescription">{description}</p>
+							<p>I'm a {City} based <span>{Occupation}</span>.</p>
+							<p className="ProfileDescription">{Description}</p>
 						</div>
 						<br />
 						<ul className="Social">
-						{networks}
+						{Networks}
 						</ul>
 					</div>
 				</div>

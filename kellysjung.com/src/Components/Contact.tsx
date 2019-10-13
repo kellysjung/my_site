@@ -10,7 +10,6 @@ export default class Contact extends React.Component<Props, ComponentState> {
 		const name = this.props.data.name;
 		const city = this.props.data.address.city;
 		const state = this.props.data.address.state;
-		const phone = this.props.data.phone;
 		const email = this.props.data.email;
 		const message = this.props.data.contactmessage;
 
@@ -65,7 +64,6 @@ export default class Contact extends React.Component<Props, ComponentState> {
 								{name}<br />
 								{city}, {state}<br />
 								<span>{email}</span>
-								<span>{phone}</span>
 							</p>
 						</div>
 					</aside>
