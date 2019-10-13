@@ -2,18 +2,17 @@
 	"main": {
 		"name":"Kelly Jung",
 		"occupation":"Software Engineer",
-		"description":"I like to build things for the web. Finding creative approaches, while contributing and working on full stack web development projects, is what I do.",
+		"description":"Mainly, I like working on front-end software development, as I’m passionate about UI/UX and creating aesthetically pleasing and intuitive software designs. Finding creative approaches, while collaborating in a team and working on full-stack development projects, is what I do.",
 		"image":"profilepic_florence.jpg",
-		"bio":"In 2017, I participated in a summer coding fellowship and now am developing a career in software engineering. This resume website was made for some web building practice.",
+		"bio":"Originally from the suburbs of New York City, I hopped over to St. Louis to attend university and have been living here since. In 2017, I participated in a summer coding fellowship and now am developing a career in software engineering. I'm always looking for ways to expand my horizons in this industry and learn new technologies. Below you can learn more about my experiences!",
 		"contactmessage":"I can be reached in a multitude of ways. I look forward to connecting with you!",
 		"email": "kellyjung96@gmail.com",
-		"phone": "(516) 350 - 0009",
 		"address":{
 		"city":"St. Louis",
 		"state":"MO"
 		},
 		"website": "http://www.kellysjung.com",
-		"resumedownload":"http://kellysjung.com",
+		"resumedownload":"/public/Kelly_Jung_Resume.pdf",
 		"Social":[
 		{
 			"name":"linkedin",
@@ -41,13 +40,38 @@
 				"description":"Minor in Computer Science"
 			}
 		],
-		"work":[
+		"experience":[
 			{
 				"company":"Less Annoying CRM",
-				"title":"Software Enginner - Full Stack",
-				"years":"January 2019 - Present",
-				"description":"I code.",
-				"website":"https://www.lessannoyingcrm.com/"
+				"website":"https://www.lessannoyingcrm.com/",
+				"positions":[
+					{
+						"title":"Software Enginner",
+						"years":"January 2019 - present",
+						"description":"LACRM is designed specifically for small businesses, and we pride ourselves in our support and care for our customers. Our software engineering team is comprised of well-rounded individuals, but we fall into our own niches. Most of what I do are front-end projects, altering the entire outlook of our product, especially as we are moving our legacy code to React. I have developed a passion for UI/UX design and am continuing to find places where we can make improvements to our CRM. I also contribute is altering our back-end to implement new features and aide our customers with their CRM needs by providing technical support and developing solutions for any software flaws."
+					},
+					{
+						"title":"CRM Coach / Junior Software Engineer",
+						"years":"July 2018 - Dec 2018",
+						"description":"Before joining the development team full-time, I started working at LACRM on a rotational basis. While as a CRM Coach, I continued to develop my coding skills by working part time on web development projects. Coordinating with our web designer, I took web mock ups and brought them to reality. During this time, I really familiarized myself with PHP and MySQL as I altered our internally-used CMS and public facing site. Being on the support team allowed me to really familiarize myself with the product I would soon come to work directly on and understand our customer base and their software wants."
+					},
+					{
+						"title":"Coding Fellow",
+						"years":"May 2017 - Aug 2017",
+						"description":"LACRM Coding Fellowship aims to teach coding skills to people from underrepresented groups in tech in order to promote diversity in the industry. Prior to the fellowship, I did not think I would pursue a career in tech, but I still understood the importance of diversity, in that it drives for more creativity, smarter decision-making, and better innovation. So I was proud to be part of the first class of fellows here, and by the end, I had drastically improved my coding skills, enough for me to seamlessly transition into a full-time role after rotating for a few months."
+					}
+				]
+			},
+			{
+				"company":"Washington University in St. Louis Career Center",
+				"website":"https://students.wustl.edu/career-center/",
+				"positions":[
+					{
+						"title":"Career Peer (Student Advisor Intern)",
+						"years":"March 2017 - May 2018",
+						"description":"The Career Peers are a team of students who meet 1:1 with fellow students on a walk-in basis to help with anything in the career development / job searching realm, from resume writing to interviewing and networking skills. As a Career Peer, I was also the front-face of the Career Center, communicating with advisors, employers, and students to direct and provide answers to anyone who had questions pertaining the center. We provided support wherever needed to aid in process of being a student to a professional career building individuals."
+					}
+				]
 			}
 		],
 		"skillmessage":"Always learning, always improving! But at the moment, these are my skills",
