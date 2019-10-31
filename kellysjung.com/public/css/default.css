@@ -1,37 +1,8 @@
-/* ------------------------------------------------------------------ */
-/* a. Webfonts and Icon fonts
- ------------------------------------------------------------------ */
-
-@import url("fonts.css");
 @import url("fontello/css/fontello.css");
 @import url("font-awesome/css/font-awesome.min.css");
 
-/* ------------------------------------------------------------------
-/* b. Reset
-      Adapted from:
-      Normalize.css - https://github.com/necolas/normalize.css/
-      HTML5 Doctor Reset - html5doctor.com/html-5-reset-stylesheet/
-/* ------------------------------------------------------------------ */
-
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-   margin: 0;
-   padding: 0;
-   border: 0;
-   outline: 0;
-   font-size: 100%;
-   vertical-align: baseline;
-   background: transparent;
+* {
+   font-family: 'Roboto', sans-serif;
 }
 
 article,aside,details,figcaption,figure,
@@ -133,11 +104,6 @@ body {
        Vertical rhythm with leading derived from 6
 --------------------------------------------------------------------- */
 
-h1, h2, h3, h4, h5, h6 {
-   color: #313131;
-	font-family: 'opensans-bold', sans-serif;
-   font-weight: normal;
-}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 h1 { font-size: 38px; line-height: 42px; margin-bottom: 12px; letter-spacing: -1px; }
 h2 { font-size: 28px; line-height: 36px; margin-bottom: 6px; }
@@ -145,12 +111,12 @@ h3 { font-size: 22px; line-height: 30px; margin-bottom: 12px; }
 h4 { font-size: 20px; line-height: 30px; margin-bottom: 6px; }
 h5 { font-size: 18px; line-height: 30px; }
 h6 { font-size: 14px; line-height: 30px; }
-.subheader { }
 
 p img { margin: 0; }
 p.lead {
    font: 19px/36px 'opensans-light', sans-serif;
    margin-bottom: 18px;
+   color: #c8d0d0;
 }
 
 /* for 'em' and 'strong' tags, font-size and line-height should be same with
@@ -178,7 +144,7 @@ blockquote:before {
 	left: 0;
 }
 blockquote p {
-   font-family: 'librebaskerville-italic', serif;
+   font-family: 'Roboto Slab', serif;
    padding: 0;
    font-size: 18px;
    line-height: 36px;
@@ -741,14 +707,6 @@ properly.
    .wide .Row { max-width: 1180px; }
 
 }
-
-/* ------------------------------------------------------------------ */
-/* e. Others
-/* ------------------------------------------------------------------ */
-
-/*  1. Clearing
-    (http://nicolasgallagher.com/micro-clearfix-hack/
---------------------------------------------------------------------- */
 
 .cf:before,
 .cf:after {

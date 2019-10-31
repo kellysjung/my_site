@@ -11,7 +11,7 @@ export default class Resume extends React.Component<Props, ComponentState> {
 		const EducationSection = this.props.data.education.map(function(education: {school: string, degree: string, graduated: string, description: string}){
 			return (
 				<div key={education.school}>
-					<h3><a href="https://wustl.edu/" target="_blank">{education.school}</a></h3>
+					<h3><a href="https://wustl.edu/" rel="noopener noreferrer" target="_blank">{education.school}</a></h3>
 					<p className="info">{education.degree}<span>&bull;</span><em className="date">{education.graduated}</em></p>
 					<p>{education.description}</p>
 				</div>
@@ -20,7 +20,7 @@ export default class Resume extends React.Component<Props, ComponentState> {
 		
 		const WorkSection = this.props.data.experience.map(function(experience: {company: string, website: string, positions: any[]}){
 			let Positions: JSX.Element[] = [];
-			const CompanyName = (experience.website ? <a href={experience.website} target="_blank">{experience.company}</a> : experience.company);
+			const CompanyName = (experience.website ? <a href={experience.website} target="_blank" rel="noopener noreferrer">{experience.company}</a> : experience.company);
 			
 			experience.positions.map(function(positions: {title: string, years: string, description: string}){
 				Positions.push(
@@ -51,7 +51,7 @@ export default class Resume extends React.Component<Props, ComponentState> {
 						<h1><span>Work</span></h1>
 					</div>
 					<div className="nine columns main-col">
-						More details about my experiences can be found on my resume, which can be downloaded above.
+						More details about my experiences can be found on my resume, which can be downloaded with the link above.
 						<br /><br />
 						{WorkSection}
 					</div>

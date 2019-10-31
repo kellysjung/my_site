@@ -2,17 +2,16 @@
 	"main": {
 		"name":"Kelly Jung",
 		"occupation":"Software Engineer",
-		"description":"Mainly, I like working on front-end software development, as I’m passionate about UI/UX and creating aesthetically pleasing and intuitive software designs. Finding creative approaches, while collaborating in a team and working on full-stack development projects, is what I do.",
+		"description":"Mainly, I like working on front-end software development, as I’m passionate about UI/UX and creating aesthetically pleasing and intuitive software designs, but I'm always eager to learning new technologies and expanding myself as an engineer. Finding creative approaches, while collaborating in a team and working on full-stack development projects, is what I do.",
 		"image":"profilepic_florence.jpg",
 		"bio":"Originally from the suburbs of New York City, I hopped over to St. Louis to attend university and have been living here since. In 2017, I participated in a summer coding fellowship and now am developing a career in software engineering. I'm always looking for ways to expand my horizons in this industry and learn new technologies. Below you can learn more about my experiences!",
-		"contactmessage":"I can be reached in a multitude of ways. I look forward to connecting with you!",
 		"email": "kellyjung96@gmail.com",
 		"address":{
 		"city":"St. Louis",
 		"state":"MO"
 		},
 		"website": "http://www.kellysjung.com",
-		"resumedownload":"/public/Kelly_Jung_Resume.pdf",
+		"resumedownload":"https://drive.google.com/file/d/1PkXVVxvQqQTEn93CEDhG5i5_10y18mcL/view?usp=sharing",
 		"Social":[
 		{
 			"name":"linkedin",
@@ -48,17 +47,17 @@
 					{
 						"title":"Software Enginner",
 						"years":"January 2019 - present",
-						"description":"LACRM is designed specifically for small businesses, and we pride ourselves in our support and care for our customers. Our software engineering team is comprised of well-rounded individuals, but we fall into our own niches. Most of what I do are front-end projects, altering the entire outlook of our product, especially as we are moving our legacy code to React. I have developed a passion for UI/UX design and am continuing to find places where we can make improvements to our CRM. I also contribute is altering our back-end to implement new features and aide our customers with their CRM needs by providing technical support and developing solutions for any software flaws."
+						"description":"LACRM is designed specifically for small businesses, and we pride ourselves in our support and care for our customers. Our software engineering team is comprised of well-rounded individuals, but we fall into our own niches. I like to get a little creative, so I've picked up many front-end projects, altering the entire outlook of our product, especially as we are moving our legacy code to React and redesigning our product. I have developed a passion for UI/UX design and am continuing to find places where we can make improvements to our CRM. I also contribute in altering our back-end to implement new features and aide our customers with their CRM needs by providing technical support and developing solutions for any software flaws."
 					},
 					{
 						"title":"CRM Coach / Junior Software Engineer",
 						"years":"July 2018 - Dec 2018",
-						"description":"Before joining the development team full-time, I started working at LACRM on a rotational basis. While as a CRM Coach, I continued to develop my coding skills by working part time on web development projects. Coordinating with our web designer, I took web mock ups and brought them to reality. During this time, I really familiarized myself with PHP and MySQL as I altered our internally-used CMS and public facing site. Being on the support team allowed me to really familiarize myself with the product I would soon come to work directly on and understand our customer base and their software wants."
+						"description":"Before joining the Development Team full-time, I started working at LACRM on a rotational basis. While as a CRM Coach, I continued to develop my coding skills by working part time on web development projects. Coordinating with our web designer, I took web mock ups and brought them to reality. During this time, I really familiarized myself with PHP and MySQL, as I altered our internally-used CMS and public facing site. Being on the support team allowed me to really understand our customer base and their software wants."
 					},
 					{
 						"title":"Coding Fellow",
 						"years":"May 2017 - Aug 2017",
-						"description":"LACRM Coding Fellowship aims to teach coding skills to people from underrepresented groups in tech in order to promote diversity in the industry. Prior to the fellowship, I did not think I would pursue a career in tech, but I still understood the importance of diversity, in that it drives for more creativity, smarter decision-making, and better innovation. So I was proud to be part of the first class of fellows here, and by the end, I had drastically improved my coding skills, enough for me to seamlessly transition into a full-time role after rotating for a few months."
+						"description":"LACRM Coding Fellowship aims to teach coding skills to people from underrepresented groups in tech in order to promote diversity in the industry. Prior to the fellowship, I did not think I would pursue a career in tech, but I still understood the importance of technical skills and promoting diversity, in that it drives for more creativity, smarter decision-making, and better innovation. So I was proud to be part of the first class of fellows here, and by the end, I had drastically improved my coding skills, enough for me to seamlessly transition into a full-time role after rotating for a few months."
 					}
 				]
 			},
@@ -69,29 +68,45 @@
 					{
 						"title":"Career Peer (Student Advisor Intern)",
 						"years":"March 2017 - May 2018",
-						"description":"The Career Peers are a team of students who meet 1:1 with fellow students on a walk-in basis to help with anything in the career development / job searching realm, from resume writing to interviewing and networking skills. As a Career Peer, I was also the front-face of the Career Center, communicating with advisors, employers, and students to direct and provide answers to anyone who had questions pertaining the center. We provided support wherever needed to aid in process of being a student to a professional career building individuals."
+						"description":"The Career Peers are a team of students who meet 1:1 with fellow students on a walk-in basis to help with anything in the career development / job searching realm, from resume writing to interviewing and networking skills. As a Career Peer, I was also the front-face of the Career Center, communicating with advisors, employers, and students to direct and provide answers to anyone who had questions pertaining to the center. We provided support wherever needed to aid in process of being a student to a professional career building individual."
 					}
 				]
 			}
 		],
-		"skillmessage":"Always learning, always improving! But at the moment, these are my skills",
+		"skillmessage":"Always learning, always improving! But this is my self-evaluation of my skills.",
 		"skills":[
-		{
-			"name":"Git",
-			"level":"60%"
-		},
-		{
-			"name":"React.js",
-			"level":"60%"
-		},
-		{
-			"name":"CSS",
-			"level":"90%"
-		},
-		{
-			"name":"HTML",
-			"level":"100%"
-		}
+			{
+				"name":"PHP",
+				"level":"100%"
+			},
+			{
+				"name":"MySQL",
+				"level":"90%"
+			},
+			{
+				"name":"React JS",
+				"level":"80%"
+			},
+			{
+				"name":"TypeScript",
+				"level":"90%"
+			},
+			{
+				"name":"JavaScript",
+				"level":"90%"
+			},
+			{
+				"name":"Git",
+				"level":"60%"
+			},
+			{
+				"name":"Java",
+				"level":"75%"
+			},
+			{
+				"name":"HTML & CSS",
+				"level":"100%"
+			}
 		]
 	}
 }

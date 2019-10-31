@@ -11,7 +11,7 @@ export default class About extends React.Component<Props, ComponentState> {
 		const ProPic= "i/"+this.props.data.image;
 		const Bio = this.props.data.bio;
 		const Email = this.props.data.email;
-		const ResumeDownload = this.props.data.resumedownload;
+		const ResumeDownloadLink = this.props.data.resumedownload;
 
 		return (
 			<section id="about">
@@ -34,7 +34,7 @@ export default class About extends React.Component<Props, ComponentState> {
 						</div>
 						<div className="columns download">
 							<p>
-								<a href="/public/Kelly_Jung_Resume.pdf" className="button" download><i className="fa fa-download"></i>Download Resume</a>
+								<a href={ResumeDownloadLink} className="button" target="_blank"><i className="fa fa-download"></i>Download Resume</a>
 							</p>
 						</div>
 						</div>

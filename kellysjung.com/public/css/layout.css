@@ -64,7 +64,7 @@ header .BannerText h1 {
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 .ProfileTitle{
-   font: 24px 'librebaskerville-regular', serif;
+   font: 24px 'Roboto Slab', serif;
    color: #f2f2f2;
    margin: 0 8px;
    width: 80%;
@@ -267,7 +267,8 @@ ul#nav li.current a { color: #F06000; }
    border-bottom: 1px solid #E8E8E8;
 }
 #resume .info {
-   font: 16px/24px 'librebaskerville-italic', serif;
+   font: 17px/24px 'Roboto Slab', serif;
+   font-weight: 600;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
@@ -577,16 +578,17 @@ call-to-action .button {
    margin-bottom: 6px;
 }
 #contact h1 span { display: none; }
-#contact h1:before {
-   font-family: 'FontAwesome';
-   content: "\f0e0";
-	padding-right: 10px;
+#contact .EmailIcon {
 	font-size: 72px;
    line-height: 72px;
-   text-align: left;
-   float: left;
    color: #ebeeee;
+   text-align: center;
 }
+#contact .EmailIcon:hover {
+   color: #11ABB0;
+   cursor: pointer;
+}
+
 
 #contact h4 {
    font: 16px/24px 'opensans-bold', sans-serif;

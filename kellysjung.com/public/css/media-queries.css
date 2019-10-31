@@ -14,7 +14,7 @@
       letter-spacing: -1px;      
    }
    header .BannerText h3 {
-      font: 17px/1.9em 'librebaskerville-regular', serif;
+      font: 17px/1.9em 'Roboto Slab', serif;
       width: 80%;
    }
    header .BannerText hr {
@@ -43,9 +43,9 @@
       font-size: 66px;
       line-height: 66px;
    }
-   #contact .section-head p.lead { font: 17px/33px opensans-light, sans-serif; }
-
-
+   #contact .section-head p.lead {
+      font: 17px/33px opensans-light, sans-serif;
+   }
 }
 
 @media only screen and (max-width: 767px) {
@@ -131,7 +131,7 @@
    }
    header .BannerText h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
    header .BannerText h3 {
-      font: 16px/1.9em 'librebaskerville-regular', serif;
+      font: 16px/1.9em 'Roboto Slab', serif;
       width: 85%;
    }
    header .BannerText hr {
@@ -226,7 +226,7 @@
       margin: 0 auto 24px auto;
    }
    header .BannerText h3 {
-      font: 14px/1.9em 'librebaskerville-regular', sans-serif;
+      font: 14px/1.9em 'Roboto Slab', sans-serif;
       width: 90%;
    }
    header .Social { font-size: 20px;}
