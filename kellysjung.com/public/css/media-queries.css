@@ -156,9 +156,14 @@
       text-align: center;
       padding: 15px 20px;
    }
-   #about .main-col { padding-right: 30px; }
+   #about .main-col {
+      padding-right: 30px;
+      padding-top: 30px;
+   }
+   #resume {
+      padding-top: 30px;
+   }
    #resume .header-col {
-      padding-top: 0;
       margin-bottom: 48px;
       text-align: center;
    }
@@ -222,15 +227,24 @@
    #NavWrap ul#nav { width: auto; float: none; }
    header .Banner { padding-top: 24px; }
    header .BannerText h1 {
-      font: 40px/1.1em 'opensans-bold', sans-serif;      
+      font: 30px/1.1em 'opensans-bold', sans-serif;      
       margin: 0 auto 24px auto;
+      position: relative;
+      left: 7px;
    }
    header .BannerText h3 {
       font: 14px/1.9em 'Roboto Slab', sans-serif;
       width: 90%;
    }
+   header .ProfileTitle {
+      font-size: 22px;
+   }  
    header .Social { font-size: 20px;}
    header .Social li { margin: 0 6px; }
    footer .Social-links { font-size: 20px; }
-   footer .Social-links li { margin-left: 14px; }   
+   footer .Social-links li { margin-left: 14px; } 
+   .ProfileDescription{
+      font-size: 16px;
+      line-height: 22px;
+   }
 }

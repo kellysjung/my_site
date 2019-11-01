@@ -7,7 +7,7 @@ interface ComponentState {};
 
 export default class Contact extends React.Component<Props, ComponentState> {
 	render(): JSX.Element {
-		// const email = this.props.data.email;
+		const email = this.props.data.email;
 
 		return (
 			<section id="contact">
@@ -23,9 +23,9 @@ export default class Contact extends React.Component<Props, ComponentState> {
 					</div>
 					<div className="ten columns">
 						<p className="lead">
-							The easiest way to reach me is by email, but feel free to reach out on the other platforms listed.
+							The easiest way to reach me is by emailing kellyjung96@gmail.com, but feel free to reach out on the other platforms listed.
 							<br />
-							I look forward to connecting with you!
+							<span style={{ textAlign: 'right' }}>I look forward to connecting with you!</span>
 						</p>
 					</div>
 				</div>
