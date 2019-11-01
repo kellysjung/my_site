@@ -26,7 +26,9 @@ export default class Resume extends React.Component<Props, ComponentState> {
 				Positions.push(
 					<>
 					<p className="info">{positions.title}<span>&bull;</span><em className="date">{positions.years}</em></p>
-					<p>{positions.description}</p><br />
+					<div className='PositionContainer'>
+						<div><p className='PositionDescription'>{positions.description}</p></div>
+					</div>
 					</>
 				);
 			})
