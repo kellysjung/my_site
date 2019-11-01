@@ -25,7 +25,7 @@ export default class Header extends React.Component<Props, ComponentState> {
 						<li><a className="SmoothScroll" href="#about">About</a></li>
 						<li><a className="SmoothScroll" href="#resume">Resume</a></li>
 						<li><a className="SmoothScroll" href="#contact">Contact</a></li>
-						{/* <li><a className="SmoothScroll" href="#extra">Extra</a></li> */}
+						<li><a className="SmoothScroll" href="#extra">Extra</a></li>
 					</ul>
 				</nav>
 				<div className="Row Banner">
