@@ -26,7 +26,6 @@ export default class About extends React.Component<Props, ComponentState> {
 						<div className="Row">
 						<div className="columns contact-details">
 						<br />
-							<h2>Contact Details</h2>
 							<p className="address">
 								<span>{Name}</span><br />
 								<span>{Email}</span>

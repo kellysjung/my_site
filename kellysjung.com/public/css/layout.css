@@ -57,7 +57,7 @@ header .Banner {
 
 header .BannerText { width: 100%; }
 header .BannerText h1 {
-   font: 90px/1.5em 'opensans-bold', sans-serif;
+   font: 88px/1.3em 'opensans-bold', sans-serif;
    color: #fff;
    letter-spacing: 1px;
    margin: 0 auto 18px auto;
@@ -71,7 +71,7 @@ header .BannerText h1 {
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
 .ProfileDescription{
-   font-size: 20px;
+   font-size: 18px;
    margin-top: 10px;
    color: #e6e6e6;
 }
@@ -183,8 +183,8 @@ ul#nav li.current a { color: #F06000; }
 
 #about {
    background: #2B2B2B;
-   padding-top: 96px;
-   padding-bottom: 66px;
+   padding-top: 60px;
+   padding-bottom: 60px;
    overflow: hidden;
 }
 
@@ -205,6 +205,7 @@ ul#nav li.current a { color: #F06000; }
    width: 180px;
    height: 180px;
    border-radius: 100%;
+   top: 15px;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -232,8 +233,8 @@ ul#nav li.current a { color: #F06000; }
 
 #resume {
    background: #fff;
-   padding-top: 90px;
-   padding-bottom: 72px;
+   padding-top: 60px;
+   padding-bottom: 60px;
    overflow: hidden;
 }
 
@@ -258,11 +259,13 @@ ul#nav li.current a { color: #F06000; }
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#resume .header-col { padding-top: 9px; }
+#resume .header-col {
+   text-align: center;
+}
 #resume .main-col { padding-right: 10%; }
 
 .education, .work {
-   margin-bottom: 48px;
+   margin-bottom: 24px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
@@ -295,13 +298,14 @@ ul#nav li.current a { color: #F06000; }
 .bars .skills {
   	margin-top: 36px;
    list-style: none;
+   padding-left: 0;
 }
 .bars li {
    position: relative;
   	margin-bottom: 60px;
   	background: #ccc;
   	height: 42px;
-  	border-radius: 3px;
+  	border-radius: 5px;
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
@@ -323,7 +327,7 @@ ul#nav li.current a { color: #F06000; }
    display: inline-block;
   	height: 42px;
    line-height: 42px;
-   border-radius: 3px 0 0 3px;
+   border-radius: 5px;
 }
 /*
 .git {

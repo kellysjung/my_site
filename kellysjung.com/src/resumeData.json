@@ -2,9 +2,9 @@
 	"main": {
 		"name":"Kelly Jung",
 		"occupation":"Software Engineer",
-		"description":"Mainly, I like working on front-end software development, as I’m passionate about UI/UX and creating aesthetically pleasing and intuitive software designs, but I'm always eager to learning new technologies and expanding myself as an engineer. Finding creative approaches, while collaborating in a team and working on full-stack development projects, is what I do.",
+		"description":"Finding creative approaches, while collaborating in a team and working on the full life cycle of development projects, is what I do. I'm always eager to learn new technologies and expand myself as an engineer, but I especially enjoy UI/UX work and creating aesthetically pleasing and intuitive software made for the best user experience.",
 		"image":"profilepic_florence.jpg",
-		"bio":"Originally from the suburbs of New York City, I hopped over to St. Louis to attend university and have been living here since. In 2017, I participated in a summer coding fellowship and now am developing a career in software engineering. I'm always looking for ways to expand my horizons in this industry and learn new technologies. Below you can learn more about my experiences!",
+		"bio":"Originally from the suburbs of New York City, I hopped over to St. Louis to attend college and have been living here since. In 2017, I participated in a summer coding fellowship and now am developing a career in tech. I'm always looking for ways to expand my horizons in this industry and learn new technologies. Below you can learn more about my experience!",
 		"email": "kellyjung96@gmail.com",
 		"address":{
 		"city":"St. Louis",
@@ -47,7 +47,7 @@
 					{
 						"title":"Software Enginner",
 						"years":"January 2019 - present",
-						"description":"LACRM is designed specifically for small businesses, and we pride ourselves in our support and care for our customers. Our software engineering team is comprised of well-rounded individuals, but we fall into our own niches. I like to get a little creative, so I've picked up many front-end projects, altering the entire outlook of our product, especially as we are moving our legacy code to React and redesigning our product. I have developed a passion for UI/UX design and am continuing to find places where we can make improvements to our CRM. I also contribute in altering our back-end to implement new features and aide our customers with their CRM needs by providing technical support and developing solutions for any software flaws."
+						"description":"LACRM is designed specifically for small businesses, and we pride ourselves in our support and care for our customers. My team is comprised of well-rounded software engineers, but we fall into our own niches. I like to get a little creative, so I've picked up many front-end projects, altering the entire outlook of our product, especially as we are moving our legacy code to React and modernizing our product. I have developed a passion for UI/UX design and am continuing to find places where we can make improvements to our CRM. I also contribute to altering our back-end to implement new features and aide our customers with their CRM needs by providing technical support and developing solutions for any software bugs."
 					},
 					{
 						"title":"CRM Coach / Junior Software Engineer",
@@ -57,7 +57,7 @@
 					{
 						"title":"Coding Fellow",
 						"years":"May 2017 - Aug 2017",
-						"description":"LACRM Coding Fellowship aims to teach coding skills to people from underrepresented groups in tech in order to promote diversity in the industry. Prior to the fellowship, I did not think I would pursue a career in tech, but I still understood the importance of technical skills and promoting diversity, in that it drives for more creativity, smarter decision-making, and better innovation. So I was proud to be part of the first class of fellows here, and by the end, I had drastically improved my coding skills, enough for me to seamlessly transition into a full-time role after rotating for a few months."
+						"description":"LACRM Coding Fellowship aims to teach coding skills to people from underrepresented groups in tech in order to promote diversity in the industry. The fellowship aims to prepare individuals for careers in tech and places high importance on promoting diversity, since it drives for more creativity, smarter decision-making, and better innovation. I was proud to be part of the first class of fellows here, and by the end, I had drastically improved my coding skills, enough for me to seamlessly transition into a full-time role after rotating for a few months."
 					}
 				]
 			},
@@ -73,7 +73,7 @@
 				]
 			}
 		],
-		"skillmessage":"Always learning, always improving! But this is my self-evaluation of my skills.",
+		"skillmessage":"Always learning, always improving! But at the moment, these are my skills.",
 		"skills":[
 			{
 				"name":"PHP",
