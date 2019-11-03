@@ -257,16 +257,7 @@ li { line-height: 18px; margin-bottom: 12px; }
 ul.large li { }
 li p { }
 
-/* ---------------------------------------------------------------------
-/*  Stats Tab Markup
 
-    <ul class="stats-tabs">
-		<li><a href="#">[value]<b>[name]</b></a></li>
-	 </ul>
-
-    Extend this object into your markup.
-/*
-/* --------------------------------------------------------------------- */
 .stats-tabs {
    padding: 0;
    margin: 24px 0;

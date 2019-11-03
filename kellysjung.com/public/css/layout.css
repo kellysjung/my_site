@@ -1,9 +1,10 @@
+.Color1 { background-color: #f2c75a; }
+.Color2 { background-color: #f1faee; }
+.Color3 { background-color: #a8dadc; }
+.Color4 { background-color: #457b9d; }
+.Color5 { background-color: #1d3557; }
+
 /*
-=====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
-=====================================================================
 
    TOC:
    a. General Styles
@@ -26,7 +27,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../i/header_background.jpg) no-repeat top center;
+   background: #161415 url(../i/header_background_2.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -192,7 +193,7 @@ ul#nav li.current a { color: #f2c75a; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #d9d9d9;
 }
 #about .profile-pic {
    position: relative;
@@ -671,16 +672,40 @@ ANIMATIONS FOR SKILLS
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
 }
+.CollapsibleButton {
+   color: white;
+   cursor: pointer;
+   padding: 18px;
+   width: 100%;
+   display: block;
+   border: none;
+   text-align: left;
+   outline: none;
+   font-size: 18px;
+   text-align: center; 
+   text-transform: uppercase;
+   border-radius: 5px;
+   margin-bottom: 15px;
+}
+.CollapsibleButton:hover{
+   background: #3d4145;
+   color: #fff;
+}
+.CollapsibleSection{
+   max-height: 0;
+   overflow: hidden;
+}
+.Expanded {
+   /* color: blue; */
+   max-height: 100px;
+   transition: max-height 0.2s ease-out;
+}
 #extra .SubHeader{
    color: #11ABB0;
-   font-size: 20px;
-   text-transform: uppercase;
+   font-size: 17px;
+   text-align: center;
+   /* text-transform: uppercase; */
 }
-#extra .SectionContainer{
-   padding: 10px 0px;
-}
-
-
 
 
 /* ------------------------------------------------------------------ */

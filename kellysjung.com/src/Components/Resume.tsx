@@ -24,13 +24,14 @@ export default class Resume extends React.Component<Props, ComponentState> {
 			
 			experience.positions.map(function(positions: {title: string, years: string, description: string}){
 				Positions.push(
-					<>
-					<p className="info">{positions.title}<span>&bull;</span><em className="date">{positions.years}</em></p>
-					<div className='PositionContainer'>
-						<div><p className='PositionDescription'>{positions.description}</p></div>
-					</div>
-					</>
+					<span key={positions.title+"_section"}>
+						<p className="info">{positions.title}<span>&bull;</span><em className="date">{positions.years}</em></p>
+						<div className='PositionContainer'>
+							<div><p className='PositionDescription'>{positions.description}</p></div>
+						</div>
+					</span>
 				);
+				return Positions;
 			})
 		
 			return (
@@ -53,7 +54,7 @@ export default class Resume extends React.Component<Props, ComponentState> {
 						<h1><span>Work</span></h1>
 					</div>
 					<div className="nine columns main-col">
-						More details about my experience can be found on my resume, which can be downloaded through the link above.
+						You can learn specifics about my experiences on my resume, which can be downloaded through the link above.
 						<br /><br />
 						{WorkSection}
 					</div>
