@@ -26,7 +26,7 @@ export default class ExtraSection_1Extra extends React.Component<Props, Componen
              
                     <h1><span>A lil extra</span></h1>
                     <p>
-                        Hi and thank you for visiting my website! For those who are interested and have a moment a longer read, I wanted to express a little further about me and my start in tech. While I have broken this post into three sections, brevity was not my forte when it came to drafting this. I did try to condense this, but I thought that the details were vital to this story, so enjoy!
+                        Hi and thank you for visiting my website! For those who are interested and have a moment a longer read, I wanted to talk a little further about myself and my start in tech. While I have broken this post into three sections, brevity was not my forte when it came to drafting this. But I thought the details included gave more personality to my story, so please enjoy!
                     </p>
                 </div>
                 
