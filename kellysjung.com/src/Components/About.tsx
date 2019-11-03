@@ -33,7 +33,7 @@ export default class About extends React.Component<Props, ComponentState> {
 						</div>
 						<div className="columns download">
 							<p>
-								<a href={ResumeDownloadLink} className="button" target="_blank"><i className="fa fa-download"></i>Download Resume</a>
+								<a href={ResumeDownloadLink} className="button" target="_blank" rel="noopener noreferrer"><i className="fa fa-download"></i>Download Resume</a>
 							</p>
 						</div>
 						</div>
