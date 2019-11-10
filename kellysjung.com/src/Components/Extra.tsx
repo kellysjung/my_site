@@ -53,7 +53,7 @@ export default class ExtraSection_1Extra extends React.Component<Props, Componen
                     </p><p>
                     Now, I could have simply made an account on a website building platform and designed a beautifully smooth site with flawless UI, interactive scrolling, and other fancy features, but I feel like there would have been a certain shame in using one of those, as someone who is building a career in software engineering / web development. Also I’m frugal. You have to pay monthly subscriptions to those, and I wanted to spend the bare minimum - so basically, just this domain name.
                     </p><p>
-                    I know there really isn’t a lot going on here, but it was fun to set up. And so I’m pretty pleased with the outcome.
+                    I know there really isn’t a lot going here, but it was fun to set up. And so I’m pretty pleased with the outcome.
                     </p><p>
                     To have a continuous deployment of this site, I’m using <a href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer">Netlify</a>, which offers a free-tier account. And for the styling, I have implemented a design by <a href="https://www.styleshout.com/free-templates/ceevee/" target="_blank" rel="noopener noreferrer">StyleShout</a>. I knew I needed a base structure but wanted to do a lot more customizing to experiment and also showcase some creativity. Lastly, the background image for my header was provided by <a href="https://unsplash.com/@eberhardgross" target="_blank" rel="noopener noreferrer"> Eberhard Grossgasteiger on Unsplash</a>.
                     </p>
