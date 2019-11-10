@@ -305,15 +305,15 @@ ul#nav li.current a { color: #f2c75a; }
 	text-align: left;
 }
 .bars .skills {
-  	margin-top: 36px;
+  	margin-top: 40px;
    list-style: none;
    padding-left: 0;
 }
 .bars li {
    position: relative;
-  	margin-bottom: 60px;
+  	margin-bottom: 46px;
   	background: #ccc;
-  	height: 42px;
+  	height: 30px;
   	border-radius: 5px;
 }
 .bars li em {
@@ -323,7 +323,7 @@ ul#nav li.current a { color: #f2c75a; }
    letter-spacing: 2px;
 	font-weight: normal;
    position: relative;
-	top: -36px;
+	top: -24px;
 }
 .bar-expand {
    position: absolute;
@@ -334,8 +334,8 @@ ul#nav li.current a { color: #f2c75a; }
    padding-right: 24px;
   	background: #313131;
    display: inline-block;
-  	height: 42px;
-   line-height: 42px;
+  	height: 30px;
+   line-height: 30px;
    border-radius: 5px;
 }
 
