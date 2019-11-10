@@ -54,7 +54,7 @@ export default class Resume extends React.Component<Props, ComponentState> {
 						<h1><span>Work</span></h1>
 					</div>
 					<div className="nine columns main-col">
-						Details about my experiences can be found on my resume, which is downloadable through the link above.
+						Here are little summaries about my different roles, but you can learn specifics about my experiences on my resume, which can be downloaded through the link above.
 						<br /><br />
 						{WorkSection}
 					</div>
@@ -77,7 +77,6 @@ export default class Resume extends React.Component<Props, ComponentState> {
 					</div>
 					<div className="nine columns main-col">
 						<p>{SkillsMessage}</p>
-						<br />
 						<div className="bars">
 							<ul className="skills">
 								{SkillSection}

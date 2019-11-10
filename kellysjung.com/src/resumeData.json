@@ -4,7 +4,7 @@
 		"occupation":"Software Engineer",
 		"description":"Finding creative approaches, while working through the full life cycle of development projects, is what I do. I'm always eager to learn new technologies and expand myself as an developer, but I especially enjoy UI/UX work and creating intuitive software made for the best user experience.",
 		"image":"profilepic_florence.jpg",
-		"bio":"Originally from the suburbs of New York City, I hopped over to St. Louis to attend college and have been living here since. In 2017, I participated in a summer coding fellowship and now am developing a career in tech. I'm always looking for ways to expand my horizons in this industry and learn new technologies. Below you can learn more about my experience!",
+		"bio":"Originally from the suburbs of New York City, I hopped over to St. Louis to attend college and have been living here since. In 2017, I participated in a summer coding fellowship and now am developing a career in tech. I'm always looking for ways to expand my horizons in this industry and learn new technologies. Below is a link to my resume, and in the next section, you can read a little about my roles.",
 		"email": "kellyjung96@gmail.com",
 		"address":{
 		"city":"St. Louis",
@@ -52,12 +52,12 @@
 					{
 						"title":"Software Enginner",
 						"years":"January 2019 - present",
-						"description":"LACRM is designed specifically for small businesses and strives to focus on giving its customers what they really need to manage their business. My team is comprised of well-rounded software engineers, but we fall into our own niches. I like to get a little creative, so I've picked up many front-end projects, altering the entire outlook of our product. I have developed a passion for UI/UX design and am continuing to find places where we can make improvements to our CRM. I also contribute to altering our back-end to implement new features and aide our customers with their CRM needs by providing technical support and developing solutions for any software bugs."
+						"description":"LACRM is designed specifically for small businesses, and my team of software engineers are all well-rounded individuals, but we fall into our own niches. I like to get creative, so I've picked up many front-end projects, altering the entire outlook of our product. Since joinging, I have developed a passion for UI/UX design and am continuing to find places where we can make improvements to our CRM. I also contribute to altering our back-end when implementing new features and aide our customers with their CRM needs by providing technical support and developing solutions for any software bugs."
 					},
 					{
 						"title":"CRM Coach / Junior Software Engineer",
 						"years":"July 2018 - Dec 2018",
-						"description":"I started working at LACRM on a rotational basis. While as a CRM Coach, I continued to develop my coding skills by on smaller-scale web development projects. Coordinating with our web designer, I took mock ups and brought them to reality. During this time, I also really familiarized myself with PHP and MySQL, as I altered our internally-used CMS and public facing site. Being on the support team allowed me to really understand our customer base and their software wants."
+						"description":"My start at LACRM was on a rotational basis. While as a CRM Coach, I continued to develop my coding skills through various web development projects. Coordinating with our web designer, I took mock ups and brought them to reality. During this time, I also really familiarized myself with PHP and MySQL, as I altered our internally-used CMS and public facing site. Being on the support team allowed me to really understand our customer base and their software needs."
 					},
 					{
 						"title":"Coding Fellow",
@@ -86,23 +86,19 @@
 			},
 			{
 				"name":"MySQL",
-				"level":"90%"
+				"level":"100%"
 			},
 			{
 				"name":"React JS",
-				"level":"80%"
+				"level":"85%"
 			},
 			{
 				"name":"TypeScript",
-				"level":"90%"
+				"level":"85%"
 			},
 			{
 				"name":"JavaScript",
 				"level":"90%"
-			},
-			{
-				"name":"Git",
-				"level":"60%"
 			},
 			{
 				"name":"Java",
@@ -111,6 +107,10 @@
 			{
 				"name":"HTML & CSS",
 				"level":"100%"
+			},
+			{
+				"name":"Git",
+				"level":"60%"
 			}
 		]
 	}
