@@ -6,7 +6,7 @@ interface ComponentState {
     Expanded: boolean;
 };
 
-export default class ExtraSection_1Extra extends React.Component<Props, ComponentState> {   
+export default class MyStory extends React.Component<Props, ComponentState> {   
     constructor(props: Props){
         super(props);
         this.state = {
@@ -21,10 +21,10 @@ export default class ExtraSection_1Extra extends React.Component<Props, Componen
 
 	render(): JSX.Element {
         return(
-            <section id="extra">
+            <section id="my-story">
                 <div style={{ padding: '10px 0px' }}>
              
-                    <h1><span>A lil extra</span></h1>
+                    <h1><span>My Story</span></h1>
                     <p>
                         Hi and thank you for visiting my website! For those who are interested and have a moment a longer read, I wanted to elaborate a little further about myself and my start in tech. I broke this post into three sections. And yes, brevity was not my forte when it came to drafting this, but the details included make my story what it is, so please enjoy!
                     </p>
