@@ -111,7 +111,7 @@ header .ScrollDown a:hover { color: #11ABB0; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
-#NavWrap ul, #NavWrap li, #NavWrap a {
+.NavWrap ul, .NavWrap li, .NavWrap a {
 	 margin: 0;
 	 padding: 0;
 	 border: none;
@@ -119,7 +119,7 @@ header .ScrollDown a:hover { color: #11ABB0; }
 }
 
 /* NavWrap */
-#NavWrap {
+.NavWrap {
    font: 12px 'opensans-bold', sans-serif;
    width: 100%;
    text-transform: uppercase;
@@ -132,17 +132,21 @@ header .ScrollDown a:hover { color: #11ABB0; }
 }
 .opaque { background-color: #333; }
 
-/* hide toggle button */
-#NavWrap > a.MobileButton { display: none; }
+#SecondaryNavWrap {
+   background-color: #333;
+}
 
-ul#nav {
+/* hide toggle button */
+.NavWrap > a.MobileButton { display: none; }
+
+ul.nav {
    min-height: 48px;
    width: auto;
 
    /* center align the menu */
    text-align: right;
 }
-ul#nav li {
+ul.nav li {
    position: relative;
    list-style: none;
    height: 48px;
@@ -150,7 +154,7 @@ ul#nav li {
 }
 
 /* Links */
-ul#nav li a {
+ul.nav li a {
 
 /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
 
@@ -168,8 +172,8 @@ ul#nav li a {
 	transition: color .2s ease-in-out;
 }
 
-ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #f2c75a; }
+ul.nav li a:active { background-color: transparent !important; }
+ul.nav li.current a { color: #f2c75a; }
 
 
 /* ------------------------------------------------------------------ */
