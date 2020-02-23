@@ -1,15 +1,11 @@
 {
 	"main": {
-		"name":"Kelly Jung",
+		"name":"Kelly",
 		"occupation":"Software Engineer",
 		"description":"Finding creative approaches, while working through the full life cycle of development projects, is what I do. I'm always eager to learn new technologies and expand myself as an developer, but I especially enjoy UI/UX work and creating intuitive software made for the best user experience.",
 		"image":"profilepic_florence.jpg",
-		"bio":"Originally from the suburbs of New York City, I hopped over to St. Louis to attend college and have been living here since. In 2017, I participated in a summer coding fellowship and now am developing a career in tech. I'm always looking for ways to expand my horizons in this industry and learn new technologies. Below is a link to my resume, and in the next section, you can read a little about my roles.",
+		"bio":"Originally from the suburbs of New York City, I graduated from WashU in 2018. The summer before I graduated, I participated in a coding fellowship and now am developing a career in tech. I'm always looking for ways to expand my horizons in this industry and learn new technologies. Below is a link to my resume, and in the next section, you can read a little about my roles.",
 		"email": "kellyjung96@gmail.com",
-		"address":{
-		"city":"St. Louis",
-		"state":"MO"
-		},
 		"website": "http://www.kellysjung.com",
 		"resumedownload":"https://drive.google.com/file/d/1PkXVVxvQqQTEn93CEDhG5i5_10y18mcL/view?usp=sharing",
 		"Social":[
@@ -52,7 +48,7 @@
 					{
 						"title":"Software Enginner",
 						"years":"January 2019 - present",
-						"description":"LACRM is designed specifically for small businesses, and although all the software engineers work on full stack projects, we also fall into our own niches. I like to get creative, so I've picked up many front-end projects, altering the entire outlook of our product. Since joining, I have developed a passion for UI/UX design and am continuing to find places where we can make improvements to our CRM. I also contribute to altering our back-end when implementing new feature requests and aide our customers with their CRM needs by providing technical support and developing solutions for any software bugs."
+						"description":"At LessAnnoyingCRM the development team members all work on full stack projects but also fall into their own niches. I like to get creative, so I've picked up many front-end projects, altering the entire outlook of our product. Since joining, I have developed a passion for UI/UX design and am continuing to find places where we can make improvements to our product. I also contribute to altering our back-end when implementing new feature requests and aide our customers with their CRM needs by providing technical support and developing solutions for any software bugs."
 					},
 					{
 						"title":"CRM Coach / Junior Software Engineer",

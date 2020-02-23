@@ -587,18 +587,18 @@ ANIMATIONS FOR SKILLS
 /* i. Extra
 /* ------------------------------------------------------------------ */
 
-#extra {
+#my-story {
    background-color: #fff;
    padding: 30px;
 }
-#extra h1{
+#my-story h1{
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
    padding-bottom: 30px;
 }
-#extra h1 span{
+#my-story h1 span{
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
 }
@@ -630,7 +630,7 @@ ANIMATIONS FOR SKILLS
    max-height: 100px;
    transition: max-height 0.2s ease-out;
 }
-#extra .SubHeader{
+#my-story .SubHeader{
    color: #11ABB0;
    font-size: 17px;
    text-align: center;

@@ -10,7 +10,7 @@ export default class Header extends React.Component<Props, ComponentState> {
 		const Name = this.props.data.name;
 		const Occupation= this.props.data.occupation;
 		const Description= this.props.data.description;
-		const City= this.props.data.address.city;
+		// const City= this.props.data.address.city;
 		const Networks= this.props.data.Social.map(function(network: any){
 			return <li key={network.name}><a href={network.url} target="_blank" rel="noopener noreferrer"><i className={network.className}></i></a></li>
 		});
@@ -25,14 +25,14 @@ export default class Header extends React.Component<Props, ComponentState> {
 						<li><a className="SmoothScroll" href="#about">About</a></li>
 						<li><a className="SmoothScroll" href="#resume">Resume</a></li>
 						<li><a className="SmoothScroll" href="#contact">Contact</a></li>
-						<li><a className="SmoothScroll" href="#extra">My Story</a></li>
+						<li><a className="SmoothScroll" href="#my-story">My Story</a></li>
 					</ul>
 				</nav>
 				<div className="Row Banner">
 					<div className="BannerText">
 						<h1 className="Headline">Hey, I'm {Name}!</h1>
 						<div className="ProfileTitle">
-							<p>I'm a {City} based <span>{Occupation}</span>.</p>
+							<p>And I'm a <span>{Occupation}</span>.</p>
 							<p className="ProfileDescription">{Description}</p>
 						</div>
 						<br />

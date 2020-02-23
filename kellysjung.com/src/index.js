@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
 import registerServiceWorker from './registerServiceWorker';
+import Router from './Components/Router';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// for if I want to go back to single page
+// ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Router />, document.getElementById('root'));
+
 registerServiceWorker();
