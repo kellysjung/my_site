@@ -2,7 +2,7 @@
 	"Post": {
 		"Title":"Test",
 		"Date":"February 23rd, 2020",
-		"Description":"This is a test blog.",
+		"Description":"This is a test.",
 		"Image":"https://source.unsplash.com/random",
 		"Body":"I'm not quite sure yet how to set up a database, so we're going to make this giant object for now."
     }
