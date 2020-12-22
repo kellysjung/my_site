@@ -1,7 +1,7 @@
 import React from 'react';
 import _ from 'underscore';
 import SecondaryNavMenu from './components/common/secondary_nav_menu';
-import BlogContainer from './Blog/Blog_Container';
+import BlogContainer from './blog/blog_bontainer';
 import Data from './blogData.json';
 
 interface Props {};

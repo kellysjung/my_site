@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Router from './components/router';
 import registerServiceWorker from './registerServiceWorker';
-import Router from './components/Router';
 
 // for if I want to go back to single page
 // ReactDOM.render(<App />, document.getElementById('root'));
