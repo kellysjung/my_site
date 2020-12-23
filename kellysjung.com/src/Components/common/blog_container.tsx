@@ -1,6 +1,6 @@
 import React from 'react';
-import { BlogPost } from '../types';
-import { Dialog } from '../javascript/dialog';
+import { BlogPost } from '../../javascript/types';
+import { Dialog } from '../../javascript/dialog';
 
 interface Props {
     Post: BlogPost;

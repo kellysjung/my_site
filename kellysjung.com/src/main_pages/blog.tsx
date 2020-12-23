@@ -1,6 +1,6 @@
 import React from 'react';
 import _ from 'underscore';
-import BlogContainer from '../blog/blog_container';
+import BlogContainer from '../components/common/blog_container';
 import Data from '../data/blogData.json';
 import SecondaryNavMenu from '../components/common/secondary_nav_menu';
 import { Dialog } from '../javascript/dialog';
