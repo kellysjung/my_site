@@ -595,14 +595,16 @@ ANIMATIONS FOR SKILLS
    background-color: #fff;
    padding: 30px;
 }
-#my-story h1{
+#my-story h1,
+#blog h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
    padding-bottom: 30px;
 }
-#my-story h1 span{
+#my-story h1 span,
+#blog h1 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
 }
