@@ -1,6 +1,7 @@
+import { BlogPost } from './types';
+
 export const Dialog = {
-    Open: function () {
-		console.log('in js');
+    Open: function (Post: BlogPost) {
         // State.SetValue("DialogIsVisible", true, false, "Dialog");
 		// State.SetValue("OnCloseFunction", OnCloseFunction, false, "Dialog");
 		// State.SetValue("PreviousScrollY", ScrollY, false, "Dialog");

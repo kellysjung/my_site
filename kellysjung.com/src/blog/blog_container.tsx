@@ -1,20 +1,22 @@
 import React from 'react';
-import { Dialog } from '../dialog';
+import { BlogPost } from '../types';
+import { Dialog } from '../javascript/dialog';
 
 interface Props {
-    Post: {Key: number, Title: string, Date: string, Description: string, Image: string, Body: string};
+    Post: BlogPost;
 };
 interface ComponentState {};
 
 export default class BlogContainer extends React.Component<Props, ComponentState> {
     render(): JSX.Element {
         const Post = this.props.Post;
+
         return (
             <div className='BlogPost'>
-                <div onClick={() => Dialog.Open()}>
+                <a href='javascript://' onClick={() => Dialog.Open(Post)} className='BlogClickable'>
                     <div className='PostImage' ><img src={Post.Image} alt='BlogImage' /></div>
                     <div className='PostTitle' >{Post.Title}</div>
-                </div>
+                </a>
                 <div className='PostDescription'>{Post.Description}</div>
                 <div className='PostDate'>{Post.Date}</div>
             </div>

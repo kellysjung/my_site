@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import App from "../app";
-import Blog from "../blog";
-import Projects from "../projects";
+import App from "./app";
+import Blog from "./blog";
+import Projects from "./projects";
 
 export default class Router extends React.Component {
 	render() {
