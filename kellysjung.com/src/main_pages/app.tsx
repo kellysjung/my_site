@@ -4,7 +4,7 @@ import Contact from '../components/contact';
 import Footer from '../components/footer';
 import Header from '../components/header';
 import MyStory from '../components/my_story';
-import Resume from '../components/resume_new';
+import Resume from '../components/resume';
 import data from '../data/resumeData.json';
 
 interface Props {};
