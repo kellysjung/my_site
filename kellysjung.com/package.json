@@ -5,13 +5,13 @@
   "dependencies": {
     "@types/react": "^16.9.2",
     "@types/underscore": "^1.9.3",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.1",
     "react": "^16.9.0",
     "react-collapsible": "^2.6.0",
     "react-dom": "^16.9.0",
     "react-ga": "^2.6.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.4.0",
+    "react-scripts": "^4.0.1",
     "typescript": "^3.6.3",
     "underscore": "^1.9.1"
   },
