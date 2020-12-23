@@ -13,6 +13,7 @@ export default class BlogContainer extends React.Component<Props, ComponentState
 
         return (
             <div className='BlogPost'>
+                {/* eslint-disable-next-line */}
                 <a href='javascript://' onClick={() => Dialog.Open(Post)} className='BlogClickable'>
                     <div className='PostImage' ><img src={Post.Image} alt='BlogImage' /></div>
                     <div className='PostTitle' >{Post.Title}</div>

@@ -26,6 +26,7 @@ export default class Blog extends React.Component<Props, ComponentState> {
                     <SecondaryNavMenu CurrentPage='Blog' />
                     <h1><span>Under Construction</span></h1>
                     <div className='First_BlogPost'>
+                    {/* eslint-disable-next-line */}
                         <a href='javascript://' onClick={() => Dialog.Open(FirstPost)} className='BlogClickable'>
                             <div><img src={FirstPost.Image} alt='BlogImage' /></div>
                             <div className='PostTitle'>{FirstPost.Title}</div>
