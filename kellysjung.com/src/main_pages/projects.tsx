@@ -1,5 +1,5 @@
 import React from 'react';
-import SecondaryNavMenu from '../ccomponents/common/secondary_nav_menu';
+import SecondaryNavMenu from '../components/common/secondary_nav_menu';
 
 interface Props {};
 interface ComponentState {};
