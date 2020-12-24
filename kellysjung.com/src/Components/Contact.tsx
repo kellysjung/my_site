@@ -14,7 +14,7 @@ export default class Contact extends React.Component<Props, ComponentState> {
 			<section id="contact">
 				<div className="Row section-head">
 					<div className="two columns header-col" style={{ textAlign: 'center' }}>
-						<a href="mailto:kellyjungg@gmail.com" target="_blank" rel="noopener noreferrer">
+						<a href="mailto:kellyjung96@gmail.com" target="_blank" rel="noopener noreferrer">
 							<span className="EmailIcon">
 								<i className="fa fa-envelope"></i>
 								<h1>Get in touch!</h1>
