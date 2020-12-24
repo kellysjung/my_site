@@ -17,7 +17,7 @@ export default class SecondaryNavMenu extends React.Component<Props, ComponentSt
                         'Contact': {'Link': '/#contact', 'Name': 'Contact'},
                         'MyStory': {'Link': '/#my-story', 'Name': 'My Story'},
                         'Blog': {'Link': '/blog', 'Name': 'Blog'},
-                        // 'Projects': {'Link': '/projects', 'Name': 'Projects'}
+                        'Projects': {'Link': '/projects', 'Name': 'Projects'}
                     };
         let MenuLinks: JSX.Element[] = [];
 

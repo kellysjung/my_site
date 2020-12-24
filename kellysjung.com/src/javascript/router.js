@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import App from "../main_pages/app";
 import Blog from "../main_pages/blog";
+import App from "../main_pages/app";
 import Projects from "../main_pages/projects";
 
 export default class Router extends React.Component {
@@ -9,8 +9,8 @@ export default class Router extends React.Component {
     	return (
 			<BrowserRouter>
 				<Switch>
-					<Route path="/blog" component={Blog} />
 					<Route path="/projects" component={Projects} />
+					<Route path='/blog' component={Blog} />
 					<Route component={App} />
 				</Switch>
 			</BrowserRouter>
