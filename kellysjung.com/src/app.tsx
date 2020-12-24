@@ -1,12 +1,12 @@
 import React from 'react';
 import data from './resumeData.json';
 
-import Header from './Components/Header';
-import Footer from './Components/Footer';
-import About from './Components/About';
-import Resume from './Components/Resume';
-import Contact from './Components/Contact';
-import MyStory from './Components/My_Story';
+import Header from './components/header';
+import Footer from './components/footer';
+import About from './components/about';
+import Resume from './components/resume';
+import Contact from './components/contact';
+import MyStory from './components/my_story';
 
 interface Props {};
 interface ComponentState {};
