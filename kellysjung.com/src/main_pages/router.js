@@ -9,7 +9,7 @@ export default class Router extends React.Component {
     	return (
 			<BrowserRouter>
 				<Switch>
-					<Route path="https://www.kellysjung.com/blog" component={Blog} />
+					<Route path="/blog" component={Blog} />
 					<Route path="/projects" component={Projects} />
 					<Route component={App} />
 				</Switch>

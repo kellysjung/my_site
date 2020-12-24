@@ -21,13 +21,15 @@ export default class Header extends React.Component<Props, ComponentState> {
 					<a className="MobileButton" href="#PrimaryNavWarp" title="Show navigation">Show navigation</a>
 					<a className="MobileButton" href="#Home" title="Hide navigation">Hide navigation</a>
 					<ul id="nav" className="nav">
+						<span style={{display:'none'}}>
+						<li><a href="/blog">Blog</a></li>
+						<li><a href="/projects">Projects</a></li>
+						</span>
 						<li className="current"><a className="SmoothScroll" href="#Home">Home</a></li>
 						<li><a className="SmoothScroll" href="#about">About</a></li>
 						<li><a className="SmoothScroll" href="#resume">Resume</a></li>
 						<li><a className="SmoothScroll" href="#contact">Contact</a></li>
 						<li><a className="SmoothScroll" href="#my-story">My Story</a></li>
-						{/* <li><a href="/blog">Blog</a></li> */}
-						{/* <li><a href="/projects">Projects</a></li> */}
 					</ul>
 				</nav>
 				<div className="Row Banner">
