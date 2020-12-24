@@ -1,10 +1,10 @@
 import React from 'react';
 import _ from 'underscore';
-import BlogContainer from '../components/common/blog_container';
+import BlogContainer from '../ccomponents/common/blog_container';
 import Data from '../data/blogData.json';
-import SecondaryNavMenu from '../components/common/secondary_nav_menu';
+import SecondaryNavMenu from '../ccomponents/common/secondary_nav_menu';
 import { Dialog } from '../javascript/dialog';
-import Overlay from '../components/common/overlay';
+import Overlay from '../ccomponents/common/overlay';
 
 interface Props {};
 interface ComponentState {};

@@ -1,10 +1,10 @@
 import React from 'react';
-import About from '../components/about';
-import Contact from '../components/contact';
-import Footer from '../components/footer';
-import Header from '../components/header';
-import MyStory from '../components/my_story';
-import Resume from '../components/resume';
+import About from '../ccomponents/aabout';
+import Contact from '../ccomponents/ccontact';
+import Footer from '../ccomponents/ffooter';
+import Header from '../ccomponents/hheader';
+import MyStory from '../ccomponents/mmy_story';
+import Resume from '../ccomponents/resume';
 import data from '../data/resumeData.json';
 
 interface Props {};
