@@ -1,14 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { BlogPost } from '../../javascript/types';
 
-interface Props {
-    Post: BlogPost;
-};
-interface ComponentState {};
-
-export default class BlogContainer extends React.Component<Props, ComponentState> {
-    render(): JSX.Element {
+export default class BlogContainer extends React.Component {
+    render() {
         const Post = this.props.Post;
 
         return (
