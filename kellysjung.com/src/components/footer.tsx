@@ -7,9 +7,7 @@ interface Props {
 interface ComponentState {};
 
 export default class Footer extends React.Component<Props, ComponentState> {
-	static defaultProps: Partial<Props> = {
-        ShowJumpToTop: true
-	};
+	static defaultProps: Partial<Props> = { ShowJumpToTop: true };
 	
 	render(): JSX.Element {
 		const networks= this.props.data.Social.map(function(network: any){

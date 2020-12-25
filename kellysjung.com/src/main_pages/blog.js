@@ -1,19 +1,23 @@
 import React from "react";
 import { BrowserRouter as Router, Link, Route, Switch, useParams } from "react-router-dom";
 import _ from 'underscore';
+import BlogContainer from "../components/common/blog_container";
+import Overlay from "../components/common/overlay";
 import SecondaryNavMenu from '../components/common/secondary_nav_menu';
+import Footer from "../components/footer";
 import BlogData from '../data/blogData.json';
 import data from '../data/resumeData.json';
-import BlogContainer from '../components/common/blog_container';
-import Footer from "../components/footer";
 
 export default function Blog() {
-	const FirstPost = BlogData[0];
+	let FeaturedPost;
 	let BlogPosts = [];
-	BlogData.shift();
-
+	
 	_.each(BlogData, function(Post) {
-		BlogPosts.push(<BlogContainer Post={Post} key={Post.Key} />);
+		if (Post.IsFeatured) {
+			FeaturedPost = Post;
+		} else {
+			BlogPosts.push(<BlogContainer Post={Post} key={Post.Key} />);
+		}
 	});
 
 	return (
@@ -23,14 +27,16 @@ export default function Blog() {
 					<SecondaryNavMenu CurrentPage='Blog' />
 					<h1><span>Under Construction</span></h1>
 					<Router>
-						<div className='First_BlogPost'>
-							<Link to={"/blog/"+FirstPost.Key}>
-								<div><img src={FirstPost.Image} alt='BlogImage' /></div>
-								<div className='PostTitle'>{FirstPost.Title}</div>
+					{FeaturedPost ?
+						<div className='Featured_BlogPost'>
+							<Link to={"/blog/"+FeaturedPost.Key}>
+								<div><img src={FeaturedPost.Image} alt='BlogImage' /></div>
+								<div className='PostTitle'>{FeaturedPost.Title}</div>
 							</Link>
-							<div className='PostDescription'>{FirstPost.Description}</div>
-							<div className='PostDate'>{FirstPost.Date}</div>
+							<div className='PostDescription'>{FeaturedPost.Description}</div>
+							<div className='PostDate'>{FeaturedPost.Date}</div>
 						</div>
+					: ""}
 						<div className='BlogPostsWrapper'>
 							{BlogPosts}
 						</div>
@@ -47,8 +53,13 @@ export default function Blog() {
 
 function OpenedPost() {
 	const { id } = useParams();
-
+	const BlogPost = BlogData[id];
+	
 	return (
-		<div>{id}</div>
+		<div>
+			<Overlay key={id}>
+				<div className='BlogDialog'>{BlogPost.Body}</div>
+			</Overlay>
+		</div>
 	);
 }
