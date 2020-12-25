@@ -9,8 +9,9 @@ export default class Projects extends React.Component<Props, ComponentState> {
         return (
             <section id="projects" className="SecondaryPage">
                 <SecondaryNavMenu CurrentPage='Projects' />
+                <h1><span>Under Construction</span></h1>
                 <div style={{ textAlign: 'center', height: 900 }}>
-                    This page is a work in progress! I'll have some of my projects here.
+                    This page is a work in progress!
                 </div>
             </section>
         );

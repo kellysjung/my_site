@@ -2,7 +2,6 @@ import React from 'react';
 import _ from 'underscore';
 
 interface Props {
-    // CurrentPage: 'Home' | 'Blog' | 'Projects';
     CurrentPage: string;
 };
 interface ComponentState {};
@@ -34,11 +33,10 @@ export default class SecondaryNavMenu extends React.Component<Props, ComponentSt
         }, CurrentPage);
 
         return (
-            <nav className='NavWrap opaque'>
-                {/* <a className="MobileButton" href="#PrimaryNavWarp" title="Show navigation">Show navigation</a>
-                <a className="MobileButton" href="#Home" title="Hide navigation">Hide navigation</a> */}
+            <nav id='SecondaryNavWrap' className='NavWrap opaque'>
+                <a className="MobileButton" href="#SecondaryNavWrap" title="Show navigation">Show navigation</a>
+                <a className="MobileButton" href="#Home" title="Hide navigation">Hide navigation</a>
                 <ul className="nav">
-                    {/* <li><a href="/home">Home</a></li> */}
                     {MenuLinks}
                 </ul>
             </nav>
