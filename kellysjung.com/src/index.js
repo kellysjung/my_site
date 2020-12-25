@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Router from './main_pages/router';
 import registerServiceWorker from './javascript/registerServiceWorker';
+import Router from './javascript/router';
 
 ReactDOM.render(<Router />, document.getElementById('root'));
 

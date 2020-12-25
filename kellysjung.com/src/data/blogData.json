@@ -1,6 +1,6 @@
 [
 	{
-		"Key": 0,
+		"Key": 1,
 		"Title":"Test 1",
 		"Date":"February 23rd, 2020",
 		"Description":"This is the first test.",
@@ -8,7 +8,7 @@
 		"Body":"I'm not quite sure yet how to set up a database, so we're going to make this giant object for now."
 	},
 	{
-		"Key": 1,
+		"Key": 2,
 		"Title":"Test 2",
 		"Date":"February 23rd, 2020",
 		"Description":"This is the second test.",
@@ -16,7 +16,7 @@
 		"Body":"I'm not quite sure yet how to set up a database, so we're going to make this giant object for now."
 	},
 	{
-		"Key": 2,
+		"Key": 3,
 		"Title":"Test 3",
 		"Date":"February 23rd, 2020",
 		"Description":"This is the third test.",
@@ -24,7 +24,7 @@
 		"Body":"I'm not quite sure yet how to set up a database, so we're going to make this giant object for now."
 	},
 	{
-		"Key": 3,
+		"Key": 4,
 		"Title":"Test 4",
 		"Date":"February 23rd, 2020",
 		"Description":"This is the fourth test.",

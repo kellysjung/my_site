@@ -1,23 +1,16 @@
 import React from 'react';
-import { BlogPost } from '../../javascript/types';
-import { Dialog } from '../../javascript/dialog';
+import { Link } from 'react-router-dom';
 
-interface Props {
-    Post: BlogPost;
-};
-interface ComponentState {};
-
-export default class BlogContainer extends React.Component<Props, ComponentState> {
-    render(): JSX.Element {
+export default class BlogContainer extends React.Component {
+    render() {
         const Post = this.props.Post;
 
         return (
             <div className='BlogPost'>
-                {/* eslint-disable-next-line */}
-                <a href='javascript://' onClick={() => Dialog.Open(Post)} className='BlogClickable'>
+				<Link to={"/blog/"+Post.Key}>
                     <div className='PostImage' ><img src={Post.Image} alt='BlogImage' /></div>
                     <div className='PostTitle' >{Post.Title}</div>
-                </a>
+				</Link>
                 <div className='PostDescription'>{Post.Description}</div>
                 <div className='PostDate'>{Post.Date}</div>
             </div>
