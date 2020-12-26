@@ -3,25 +3,25 @@
 /* Common
 /* -------------------------------------- */
 .SecondaryPage {
-    margin-top: 48px;
+	margin-top: 48px;
 }
 #blog, #projects {
-    background-color: #fff;
-    padding: 30px;
+	background-color: #fff;
+	padding: 30px;
 }
 .BlogWrapper {
-    max-width: 800px;
-    margin: 0 auto;
+	max-width: 800px;
+	margin: 0 auto;
 }
 .Overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    overflow-y: auto;
-    z-index: 10;
-    background-color: rgba(0,0,0,.75);
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	overflow-y: auto;
+	z-index: 10;
+	background-color: rgba(0,0,0,.75);
 }
 
 .box {
@@ -29,75 +29,126 @@
 	width: 100%;
 	margin: 0 auto;
 	z-index: 10;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);	
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);	
 }
 
 /* -------------------------------------- */
 /* Blog
 /* -------------------------------------- */
 .Featured_BlogPost {
-    margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 .Featured_BlogPost img {
-    max-height: 500px;
-    max-width: 800px;
-    width: 100%;
-    height: 100%;
+	max-height: 500px;
+	max-width: 800px;
+	width: 100%;
+	height: 100%;
 }
 .BlogClickable:hover > .PostTitle {
-    color: #11ABB0;
+	color: #11ABB0;
 }
 .BlogPostsWrapper {
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
+	display: grid;
+	width: 100%;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 15px;
+	grid-row-gap: 15px;
 }
 .BlogPost {
-    min-width: 200px;
-    width: 100%;
+	min-width: 200px;
+	width: 100%;
 }
 .BlogPost img {
-    max-height: 200px;
-    width: 100%;
+	max-height: 200px;
+	width: 100%;
 }
 .PostTitle {
-    font-weight: 600;
-    font-size: 17px;
-    color: #333333;
+	font-weight: 600;
+	font-size: 17px;
+	color: #333333;
 }
 .PostDescription {
-    font-size: 14px;
+	font-size: 14px;
 }
 .PostDate {
-    font-size: 12px;
+	font-size: 12px;
 }
 
-.BlogDialog {
-    max-height: 700px;
-    max-width: 800px;
-    background-color: #fff;
-    margin: auto;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+/* -------------------------------------- */
+/* Blog Post
+/* -------------------------------------- */
+.OpenedPost {
+	max-height: 700px;
+	max-width: 760px;
+	background-color: #fff;
+	margin: auto;
+	padding: 24px 28px 24px 28px;
+	border-radius: 5px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+}
+.OpenedPost_Title {
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.OpenedPost_Description {
+	font-style: italic;
+}
+.OpenedPost_Date {
+	font-size: 14px;
+	font-weight: 300;
+}
+.OpenedPost_Body {
+	margin-top: 10px;
+}
+.OpenedPost_Close {
+	font-size: 20px;
+	font-weight: 800;
+	color: #1d3557;
+	padding: 4px 14px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	border-radius: 6px;
+	cursor: pointer;
+	
+	-webkit-transition: color .5s ease-in-out;
+	-moz-transition: color .5s ease-in-out;
+	-o-transition: color .5s ease-in-out;
+	-ms-transition: color .5s ease-in-out;
+	transition: color .5s ease-in-out;
+}
+.OpenedPost_Scroll {
+	overflow-y: scroll;
+	height: 100%;
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+}
+.OpenedPost_Scroll::-webkit-scrollbar {
+	display: none;
+}
+.OpenedPost_Close:hover {
+	background-color: #1d3557;
+	color: #ffffff;
 }
 
 
 @media (max-width: 830px) {
-    .BlogPostsWrapper {
-        grid-template-columns: repeat(2, 1fr);
-    }
+	.BlogPostsWrapper {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
 
 @media (max-width: 500px) {
-    .BlogPostsWrapper {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .Featured_BlogPost img {
-        max-height: 200px;
-    }
+	.BlogPostsWrapper {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.Featured_BlogPost img {
+		max-height: 200px;
+	}
 }

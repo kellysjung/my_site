@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Link, Route, Switch, useParams } from "react-router-dom";
 import _ from 'underscore';
 import BlogContainer from "../components/common/blog_container";
-import Overlay from "../components/common/overlay";
+import OpenedPost from "../components/common/opened_post";
 import SecondaryNavMenu from '../components/common/secondary_nav_menu';
 import Footer from "../components/footer";
 import BlogData from '../data/blogData.json';
@@ -41,7 +41,7 @@ export default function Blog() {
 							{BlogPosts}
 						</div>
 						<Switch>
-							<Route path="/blog/:id" children={<OpenedPost />} />
+							<Route path="/blog/:id" children={<OpenPost />} />
 						</Switch>
 					</Router>
 				</div>
@@ -51,15 +51,11 @@ export default function Blog() {
 	);
 }
 
-function OpenedPost() {
+function OpenPost() {
 	const { id } = useParams();
 	const BlogPost = BlogData[id];
 	
 	return (
-		<div>
-			<Overlay key={id}>
-				<div className='BlogDialog'>{BlogPost.Body}</div>
-			</Overlay>
-		</div>
+		<OpenedPost key={id} BlogPost={BlogPost} />
 	);
 }
