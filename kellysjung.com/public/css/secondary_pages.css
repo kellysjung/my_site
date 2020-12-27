@@ -65,7 +65,7 @@
 .PostTitle {
 	font-weight: 600;
 	font-size: 17px;
-	color: #333333;
+	color: #333;
 }
 .PostDescription {
 	font-size: 14px;
@@ -82,7 +82,7 @@
 	max-width: 760px;
 	background-color: #fff;
 	margin: auto;
-	padding: 24px 28px 24px 28px;
+	padding: 24px 2px 24px 28px;
 	border-radius: 5px;
 	position: absolute;
 	top: 0;
@@ -94,47 +94,53 @@
 .OpenedPost_Title {
 	font-size: 30px;
 	font-weight: 700;
+	color: #555;
 	margin-bottom: 10px;
 }
 .OpenedPost_Description {
 	font-style: italic;
+	color: #666;
+	margin: 6px 0;
 }
 .OpenedPost_Date {
 	font-size: 14px;
 	font-weight: 300;
+	color: #666;
 }
 .OpenedPost_Body {
+	color: #777;
 	margin-top: 10px;
+	padding-right: 22px;
 }
 .OpenedPost_Close {
 	font-size: 20px;
 	font-weight: 800;
-	color: #1d3557;
-	padding: 4px 14px;
+	color: #457b9d;
+	padding: 4px 13px;
 	position: absolute;
 	top: 5px;
 	right: 5px;
 	border-radius: 6px;
 	cursor: pointer;
 	
-	-webkit-transition: color .5s ease-in-out;
-	-moz-transition: color .5s ease-in-out;
-	-o-transition: color .5s ease-in-out;
-	-ms-transition: color .5s ease-in-out;
-	transition: color .5s ease-in-out;
+	-webkit-transition: color .3s ease-in;
+	-moz-transition: color .3s ease-in;
+	-o-transition: color .3s ease-in;
+	-ms-transition: color .3s ease-in;
+	transition: color .3s ease-in;
 }
 .OpenedPost_Scroll {
 	overflow-y: scroll;
 	height: 100%;
-	-ms-overflow-style: none;  /* IE and Edge */
-	scrollbar-width: none;  /* Firefox */
+	/* -ms-overflow-style: none;
+	scrollbar-width: none; */
 }
-.OpenedPost_Scroll::-webkit-scrollbar {
+/* .OpenedPost_Scroll::-webkit-scrollbar {
 	display: none;
-}
+} */
 .OpenedPost_Close:hover {
-	background-color: #1d3557;
-	color: #ffffff;
+	background-color: #457b9d;
+	color: #fff;
 }
 
 
