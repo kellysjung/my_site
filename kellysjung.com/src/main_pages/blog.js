@@ -51,6 +51,8 @@ export default function Blog() {
 	);
 }
 
+
+
 function OpenPost() {
 	const { id } = useParams();
 	const BlogPost = BlogData[id];

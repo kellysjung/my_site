@@ -20,6 +20,7 @@ export default class OpenedPost extends React.Component<Props, ComponentState> {
 
 	render(): JSX.Element | null {
 		const BlogPost = this.props.BlogPost;
+
 		return this.state.ShowOverlay ?
 			<div className='Overlay'>
 				<div className='OpenedPost'>
@@ -28,7 +29,7 @@ export default class OpenedPost extends React.Component<Props, ComponentState> {
 						<div className='OpenedPost_Title'>{BlogPost.Title}</div>
 						<div className='OpenedPost_Description'>{BlogPost.Description}</div>
 						<div className='OpenedPost_Date'>{BlogPost.Date}</div>
-						<div className='OpenedPost_Body'>{BlogPost.Body}</div>
+						<div className='OpenedPost_Body' dangerouslySetInnerHTML={{__html: BlogPost.Body}} />
 					</div>
 				</div>
 			</div>
